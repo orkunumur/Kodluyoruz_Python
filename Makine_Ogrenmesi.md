@@ -1,0 +1,14 @@
+# MAKİNE ÖĞRENMESİ
+
+Makine öğrenmesi veri bilimi alanının altında bulunan, veriler üzerinde matematiksel-istatistiksel işlemler yaparak modeller oluşturur ve bu modelleri kullanarak öngörülerde bulunmayı amaçlayan bir uygulamadır. Makine öğrenmesi modelleri, önceden bilinmeyen verilerin tahmin edilmesi için kullanılır. Bu modellerin oluşturulmasında, veri ön işleme, model seçimi, model eğitimi, hiper parametre seçimi ve model değerlendirme gibi aşamalar bulunur.
+
+
+## Makine Öğrenmesi Modelleri
+
+Makine öğrenmesi modelleri kısaca, bir modelin belirli bir eğitim verisi üzerinde öğrenmesini ve sonrasında yeni verileri tahmin etmesini sağlayan algoritmalar bütünüdür. Bu modeller, genellikle veri madenciliği, yapay zeka ve istatistik alanlarında kullanılır. Makine öğrenmesi modelleri genellikle iki kategori altında toplanabilir: denetimli öğrenme ve denetimsiz öğrenme. Denetimli öğrenme, modelin veri setinde belirli bir hedef değişkeni tahmin etmesi gerektiği durumlarda kullanılır. Örneğin, bir evin fiyatını tahmin etmek için, ev özelliklerini (metrekare, oda sayısı, vb.) veri olarak kullanıp, hedef değişkeni olarak ev fiyatını belirleyebiliriz. Denetimsiz öğrenme ise hedef değişkeni olmayan veri setleri üzerinde çalışır. Bu tür öğrenme, verilerdeki kalıpları tanımlamak ve sınıflandırmak için kullanılır.
+
+Makine öğrenmesi modelleri genellikle Python programlama dili kullanılarak oluşturulur. Python, makine öğrenmesi ve veri bilimi toplulukları tarafından oldukça popüler bir dildir ve birçok makine öğrenmesi kütüphanesi Python ile uyumludur. Makine öğrenmesi modelleri oluşturulurken, veri ön işleme adımları ve model seçimi oldukça önemlidir. Veri ön işleme adımları, veri setinin doğru şekilde formatlanması, aykırı değerlerin temizlenmesi, eksik verilerin doldurulması ve veri setindeki özelliklerin ölçeklendirilmesi gibi işlemleri içerir. Model seçimi ise, veri setine en uygun modelin seçilmesini sağlar ve bu seçim, model performansı ve hesaplama süresi gibi faktörlere bağlıdır.
+
+## Makine Öğrenmesi Kütüphaneleri
+
+Makine öğrenmesi uygulamalarında sıklıkla kullanılan kütüphaneler arasında Python dilindeki Scikit-learn, TensorFlow ve Keras, R dilindeki caret, C++ dilindeki OpenCV bulunur. Bu kütüphaneler, kullanıcılara veri ön işleme, model seçimi, model eğitimi, hiper parametre seçimi ve model değerlendirme için hazır fonksiyonlar sunarlar. Bu sayede kullanıcılar, öncelikle verileri düzenleyerek model için gerekli olan formata getirirler, ardından kullanacakları modeli seçerler ve modeli eğitirler. Eğitilmiş model, önceden bilinmeyen veriler üzerinde test edilir ve sonuçlar değerlendirilir.
